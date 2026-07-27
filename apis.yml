@@ -1,8 +1,24 @@
 aid: home-network
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/home-network.png
 name: '@Home Network'
-description: '@Home Network is a company surfaced as a portfolio company of kleiner-perkins and added
-  to the API Evangelist network as a stub for enrichment. Sector: enterprise. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: '@Home Network (Excite@Home) was a pioneering residential broadband internet
+  service provider founded in 1995, backed by venture firm Kleiner Perkins Caufield & Byers
+  and cable operator TCI. It delivered high-speed cable internet access to consumers and merged
+  with the Excite web portal in 1999 to form Excite@Home. The company filed for Chapter 11 bankruptcy
+  on October 1, 2001 and ceased operations by February 2002; it is defunct and operates no website,
+  developer portal, or API today. This record is retained as a historical portfolio-company profile
+  and has no live surface to enrich.'
 url: https://raw.githubusercontent.com/api-evangelist/home-network/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,15 +26,29 @@ x-backed-by:
 - kleiner-perkins
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-defunct-date: '2002-02'
+x-enrichment-note: 'Defunct broadband ISP (Excite@Home), ceased operations Feb 2002. No live
+  website, developer portal, or API exists; no artifacts are derivable or searchable without
+  fabrication. Source: https://en.wikipedia.org/wiki/Excite@Home'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Enterprise
+- Broadband
+- Internet Service Provider
+- Cable
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

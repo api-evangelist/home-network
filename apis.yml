@@ -31,7 +31,7 @@ x-defunct-date: '2002-02'
 x-enrichment-note: 'Defunct broadband ISP (Excite@Home), ceased operations Feb 2002. No live
   website, developer portal, or API exists; no artifacts are derivable or searchable without
   fabrication. Source: https://en.wikipedia.org/wiki/Excite@Home'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
